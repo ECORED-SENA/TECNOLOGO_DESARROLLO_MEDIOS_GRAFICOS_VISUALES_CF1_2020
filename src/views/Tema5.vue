@@ -42,7 +42,7 @@
     #t_5_2.titulo-segundo
       .h2 5.2. Análisis e interpretación de la información
     
-    .row
+    .row.mb-4
       .col-lg-7
         p Queda claro que el brief es muy importante ya que facilita toda la información del producto en una primera instancia, antes de desarrollar las estrategias pertinentes. Si se llegase a tener dudas o inquietudes, es importante aclarar el contenido, con el cliente antes de empezar.  Para hacer un buen análisis de esta información, hay que ser muy observador, delimitar cualquier tipo de pesquisa por pequeña que parezca, puede ser de gran utilidad en el éxito del proyecto. 
         .row.justify-content-center.cajon.color-acento-botones.mb-5.p-2.mx-1
@@ -131,7 +131,7 @@
 
     h3.mb-4 Conociendo al cliente. Revisar la información
 
-    .row
+    .row.mb-5
       .col-lg-7
         p De acuerdo con Reizenstein (2004), 
           strong “un cliente es la persona o empresa receptora de un bien, servicio, producto o idea, a cambio de dinero u otro artículo de valor”. 
@@ -151,7 +151,7 @@
 
     h3.mb-4 Retroalimentación de propuestas
 
-    .row
+    .row.mb-4
       .col-lg-7
         p Como retroalimentación se designa el método de control de sistemas en el cual los resultados obtenidos de una tarea o actividad son reintroducidos nuevamente en el sistema con el fin de controlar y optimizar su comportamiento. Como tal, la retroalimentación se aplica prácticamente a cualquier proceso que involucre mecánicas semejantes de ajuste y autorregulación de un sistema (Coelho, 2019). 
         p La retroalimentación entre el emisor y el receptor se considera el aspecto más importante a tener en cuenta en la comunicación; 

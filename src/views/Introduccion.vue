@@ -14,22 +14,22 @@
     
     p.mb-1 Los medios gráficos y el arte van de la mano, los dos constituyen un fenómeno social, que desde tiempos remotos ha cambiado y revolucionado la forma y la manera en que vemos y percibimos el mundo que nos rodea. Tanto los medios visuales como el arte avanzan con el tiempo, la cultura, la religión, las creencias y costumbres de un pueblo; permitiéndonos contextualizar los hechos que hicieron parte de una etapa de la historia, y brindándonos herramientas sólidas para conocer los diversos elementos utilizados en cuanto al diseño y sus corrientes, el color, la forma, la moda, los movimientos artísticos, la revolución del pensamiento y los avances tecnológicos. 
 
-    .row.justify-content-md-center
+    .row.justify-content-center
        .col-lg-10.p-2
-        .row.justify-content-md-center.align-items-center 
+        .row.justify-content-center.align-items-center 
           .col-lg-2.col-5.p-4
             figure
-              img(src='@/assets/curso/ico-intro1.png', alt='Icono intro')
+              img(src='@/assets/curso/ico-intro1.svg', alt='Icono intro')
           .col-lg-10.p-4
             p 
               strong El arte 
               | ha sido utilizado desde tiempos remotos por el hombre como 
               strong manifestación estética y comunicativa, para expresar sentimientos e ideales, 
               | a través de pinturas en cuevas, talla en piedra, artículos en cerámica y barro, madera, hueso y otros materiales, de una manera muy libre y espontánea.
-        .row.justify-content-md-center.align-items-center 
+        .row.justify-content-center.align-items-center 
           .col-lg-2.col-5.p-4
             figure
-              img(src='@/assets/curso/ico-intro2.png', alt='Icono intro')
+              img(src='@/assets/curso/ico-intro2.svg', alt='Icono intro')
           .col-lg-10.p-4
             p Por su parte los 
               strong medios gráficos, el diseño 

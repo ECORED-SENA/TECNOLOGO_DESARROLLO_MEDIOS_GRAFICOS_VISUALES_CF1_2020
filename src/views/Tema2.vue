@@ -147,7 +147,7 @@
 
 
     h3.mb-4 Grecia  
-    .row.justify-content-center.mb-2
+    .row.justify-content-center.mb-4
       .col-lg-7
         p La civilización es una de las más importantes, pues ha sido el fundamento del mundo occidental. Allí nació la democracia. Sin lugar a duda, la cultura griega, es la base de la cultura occidental. Esta se extiende a un período de mil años. Recibió la influencia de otras culturas como la egipcia y la del próximo oriente. Su ubicación geográfica en el Mediterráneo hizo que tuviera un intercambio más dinámico con otras culturas y formas de pensamiento, favorecido por el comercio y la economía. Estaban organizados en ciudades-estado o polis, independientes y enfrentadas usualmente; sin embargo, compartían la misma lengua, la religión que era politeísta y se unificaban culturalmente en la Hélade (endónimo con el cual los antiguos griegos identificaban su región). Atenas fue la protagonista, pero debido al profundo intercambio entre sus ciudades-estado, la demanda artística se hizo más variada y menos lujosa, y surgió la competencia. En ese momento, la naturaleza fue sinónimo de armonía numérica, basada en la simetría y la proporción, por ende, transmitía belleza. 
         .cajon.color-acento-botones.p-4.mb-4
@@ -218,7 +218,7 @@
 
 
     h3.mb-4 Roma  
-    .row.justify-content-center.mb-3
+    .row.justify-content-center.mb-4
       .col-lg-7
         p Hacia el siglo III a. C., Roma inicia la conquista de territorios y empieza a expandir sus dominios, sobre casi toda la Europa de hoy, Asia menor y el norte de África. La conquista de Grecia continental y por ende las islas del mar Egeo, verdadero centro de la cultura y el arte helenístico hizo que los romanos fueran influenciados.
         p Roma fue gobernada por los emperadores, tenía una sólida economía, una misma lengua (el latín), una misma religión (politeísta), una moneda única, y un ordenamiento jurídico que reguló las actividades de sus ciudadanos (crearon el derecho). 
@@ -229,7 +229,7 @@
           img(src='@/assets/curso/roma.svg', alt='Roma') 
 
     .row.justify-content-center.align-items-center.mb-5.cajon.color-acento-botones
-      .col-lg-3.justify-content-center.col-5.px-md-5.p-4
+      .col-lg-2.justify-content-center.col-5.px-md-4.p-4
         figure
           img(src='@/assets/curso/casco-romano.svg', alt='Casco Romano')
       .col-lg-9.p-lg-4.px-4
@@ -276,7 +276,7 @@
         p La pintura en este período representa el absoluto influjo de la religión en la vida social y política del Imperio Oriental, pero a comienzos del año 730, bajo la autoridad del emperador León III, surgió una crisis iconoclasta que duró hasta el siglo IX, cuando prohíbe la elaboración de imágenes religiosas en el Imperio, ya que consideró que dichas imágenes conducen a la idolatría, porque en la materia estaba lo maligno y por lo tanto no contribuían en propósito de seguir el camino a lo divino. Por esa razón los mosaicos fueron cubiertos con yeso, y dañaron muchas obras religiosas; dentro de los templos los motivos religiosos se reemplazaron por retratos del emperador, escenas de guerra, de carreras de caballos o de caza, vegetales y animales. Pero en 843, los ortodoxos derrotaron a los destructores, luego vino el cisma entre las iglesias de Constantinopla y Roma, entonces las imágenes volvieron a ser admitidas en los templos, pero con un valor sagrado, rindiendo culto a Dios por medio de ellas. Sin embargo, la libertad del artista se limitó, debiendo ajustarse a temas antiguos y conservando el estilo clásico. La parte superior de las construcciones religiosas, son una reproducción de los mundos celestiales, mientras que la tierra correspondía a la zona situada entre el suelo y el arranque de los arcos. 
         
     .row.justify-content-center.align-items-center.mb-5.cajon.color-acento-botones
-      .col-lg-3.justify-content-center.col-5.px-md-5.p-4
+      .col-lg-2.justify-content-center.col-5.px-md-4.p-4
         figure
           img(src='@/assets/curso/cruz-bizantina.svg', alt='Cruz arte bizantino')
       .col-lg-9.p-lg-4.px-4
@@ -336,7 +336,7 @@
         p La escultura también presentó un desarrollo importante; sin embargo, la pintura no se destacó sino hasta la primera mitad del siglo XIV, especialmente en Italia. También cambió el diseño de las catedrales más altas y de estructura nítida en el que las diferentes unidades espaciales perdieron independencia en pro de una mayor integración, procurando que entrara más luz, por eso los muros se construyen con grandes ventanales. El arco que caracterizó este período es el apuntado o también llamado ojival, siendo más esbelto, igualmente se construyeron canales para expulsar el agua lluvia a través de la boca de gárgolas. El arte gótico se caracterizó por ser vertical y abierto; alrededor de las ciudades se construyeron murallas, dos calles principales se cortaban en cruz, en el centro la iglesia y el ayuntamiento. Hacia el siglo XIV, la catedral deja de ser el principal centro y se construyeron casas consistoriales y palacios, iniciando una tendencia con muchos ornamentos, por lo que en el siglo XV se produce el gótico tardío (periodo final). Sin embargo, Italia siguió apegándose a lo clásico, por lo que a principios del siglo XV en Florencia se originó el renacimiento, mientras que el resto de Europa vivía la máxima expresión gótica. 
         
     .row.justify-content-center.mb-5.cajon.color-acento-botones
-      .col-lg-3.justify-content-center.col-5.px-md-5.p-4
+      .col-lg-2.justify-content-center.col-5.px-md-3.p-4
         figure
           img(src='@/assets/curso/catedral-de-milan.svg', alt='Catedral de Milán')
       .col-lg-9.p-lg-4.px-4
