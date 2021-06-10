@@ -25,7 +25,8 @@
               strong Por medio del brief podemos saber si las expectativas de un cliente son exageradas o por el contrario un poco tímidas.
               | Cada agencia o diseñador realiza su propio formato de brief, ya que no existe un patrón universal del mismo, es más bien un formato acomodado a las necesidades requeridas.
 
-    .separador        
+    .super-separador
+      .separador2        
 
 
     // 5.1
@@ -35,7 +36,8 @@
     figure
       img(src='@/assets/curso/video1.jpg', alt='Video')
 
-    .separador  
+    .super-separador
+      .separador2  
 
 
     // 5.2
@@ -187,8 +189,8 @@
             .h3 El Cierre
             p Una vez terminada la sesión de retroalimentación es importante hacer un resumen de la misma, los puntos que se aclaran, los objetivos y acuerdos a los que se llegaron, para que el feedback sea realmente efectivo y lleve a una ganancia personal, del equipo, la empresa y por supuesto el cliente. 
 
-
-    .separador  
+    .super-separador
+      .separador2 
 
 
     // 5.3

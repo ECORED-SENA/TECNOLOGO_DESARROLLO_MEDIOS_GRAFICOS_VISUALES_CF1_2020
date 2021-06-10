@@ -19,7 +19,8 @@
         figure
           img(src='@/assets/curso/tema2-infografia.png', alt='Infografia Historia del arte')  
 
-    .separador
+    .super-separador
+      .separador2
 
 
     // 2.1
@@ -77,7 +78,8 @@
         figure
           img(src='@/assets/curso/neolitico.png', alt='Infografia Historia del arte')  
 
-    .separador
+    .super-separador
+      .separador2
 
 
     // 2.2
@@ -249,7 +251,8 @@
       strong el aporte más importante de los romanos el arte, se dio en la arquitectura, 
       | pues todas las construcciones aquí mencionadas fueron creación exclusiva de los romanos, ya que solamente el teatro y el templo tuvieron influencia griega.
 
-    .separador
+    .super-separador
+      .separador2
 
 
     // 2.3
@@ -360,7 +363,8 @@
         figure
           img(src='@/assets/curso/arte-gotico3.png', alt='El arte gótico')          
 
-    .separador
+    .super-separador
+      .separador2
 
 
     // 2.4
@@ -450,7 +454,8 @@
         figure
           img(src='@/assets/curso/arquitectura-barroca.png', alt='Retrato de Michelangelo Merisi da Caravaggio - Iglesia barroca')      
 
-    .separador
+    .super-separador
+      .separador2
 
 
     // 2.5

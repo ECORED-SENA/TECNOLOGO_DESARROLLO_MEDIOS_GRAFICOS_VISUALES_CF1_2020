@@ -21,7 +21,8 @@
         figure
           img(src='@/assets/curso/gestion-proyectos.png', alt='Grupo de personas gestionando proyectos')  
 
-    .separador        
+    .super-separador
+      .separador2        
 
 
     // 6.1
@@ -69,7 +70,8 @@
               figure
                 img(src='@/assets/curso/divisa.svg', alt='Icono de divisa')
 
-    .separador
+    .super-separador
+      .separador2
 
 
     // 6.2
@@ -193,7 +195,8 @@
                   i.fas.fa-circle
                   p.mb-0 Retroalimentación frente a los resultados alcanzado.
 
-    .separador
+    .super-separador
+      .separador2
 
 
     // 6.3
@@ -248,7 +251,8 @@
                     strong aporta el conocimiento, saberes, oficios, constancia, dedicación y aprendizaje, cada persona de acuerdo con sus conocimientos desempeñan un rol y responsabilidades bien definidas.  
                     | El correcto funcionamiento del área de recursos humanos, el buen ambiente laboral y las condiciones justas y equitativas, propenden en tener un excelente equipo de trabajo, que al final se deriva en ganancias para todos. Un empleado contento y bien remunerado, se sentirá feliz en su trabajo, contrario a un trabajador que tiene que laborar en un ambiente conflictivo, con bajo salario y extenuantes horarios laborales.
 
-    .separador
+    .super-separador
+      .separador2
 
 
     // 6.4

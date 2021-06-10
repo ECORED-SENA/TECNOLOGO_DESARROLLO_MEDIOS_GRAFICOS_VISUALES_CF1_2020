@@ -86,7 +86,8 @@
       figure
         img(src='@/assets/curso/representantes-diseno.png', alt='Representantes en la historia del diseño gráfico')
 
-    .separador
+    .super-separador
+      .separador2
 
 
     // 1.1

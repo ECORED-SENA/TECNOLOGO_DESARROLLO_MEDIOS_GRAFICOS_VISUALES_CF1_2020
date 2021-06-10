@@ -27,7 +27,8 @@
         figure.mb-4
           img(src='@/assets/curso/diseno-basico.png', alt='Señal de tránsito vacía')  
 
-    .separador        
+    .super-separador
+      .separador2       
 
 
     // 4.1
@@ -107,7 +108,8 @@
                     strong Metonimia: 
                     |  reemplazar el nombre de un elemento por otro con el que se relaciona, o existe una relación.                  
 
-    .separador  
+    .super-separador
+      .separador2 
 
 
     // 4.2
@@ -396,7 +398,8 @@
         figure
           img(src='@/assets/curso/Diseno-tridimensional.png', alt='Diseño tridimensional')    
 
-    .separador   
+    .super-separador
+      .separador2  
 
 
     // 4.3
