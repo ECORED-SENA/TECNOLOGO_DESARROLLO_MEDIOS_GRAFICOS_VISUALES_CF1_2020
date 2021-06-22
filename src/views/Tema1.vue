@@ -84,7 +84,7 @@
 
     .row
       figure
-        img(src='@/assets/curso/representantes-diseno.png', alt='Representantes en la historia del diseño gráfico')
+        img(src='@/assets/curso/representantes-diseno.svg', alt='Representantes en la historia del diseño gráfico')
 
     .super-separador
       .separador2

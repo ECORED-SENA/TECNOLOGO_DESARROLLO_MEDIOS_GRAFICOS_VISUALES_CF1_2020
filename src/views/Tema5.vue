@@ -200,7 +200,7 @@
     p.mb-4 A continuación, conocerá las etapas del proceso creativo.
 
     figure
-      img.mb-5(src='@/assets/curso/etapas-proceso-creativo.png', alt='Infografia sobre las etapas del proceso creativo')  
+      img.mb-5(src='@/assets/curso/etapas-proceso-creativo.svg', alt='Infografia sobre las etapas del proceso creativo')  
 
     h3 Psicología de la imagen
 

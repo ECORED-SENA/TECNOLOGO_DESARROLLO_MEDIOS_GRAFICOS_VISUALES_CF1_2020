@@ -83,7 +83,7 @@
     .row.justify-content-center
       .col-lg-10
         figure
-          img.mb-5(src='@/assets/curso/fases-del-proyecto.png', alt='Infografía sobre fases del proyecto')
+          img.mb-5(src='@/assets/curso/fases-del-proyecto.svg', alt='Infografía sobre fases del proyecto')
 
     p A continuación, se detalla a manera general las fases del proyecto, objetivo y tareas      
 
@@ -210,7 +210,7 @@
     .row.justify-content-center
       .col-lg-10
         figure
-          img.mb-5(src='@/assets/curso/empresa.png', alt='Infografía sobre empresa')
+          img.mb-5(src='@/assets/curso/empresa.svg', alt='Infografía sobre empresa')
 
       .row.justify-content-center
         .col-lg-10

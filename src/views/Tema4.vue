@@ -430,7 +430,7 @@
 
     .row.mb-5
       figure
-        img(src='@/assets/curso/Mensaje-publicitario-efectivo.png', alt='Mensaje publicitario efectivo')     
+        img(src='@/assets/curso/Mensaje-publicitario-efectivo.svg', alt='Mensaje publicitario efectivo')     
 
     
     // Estructura y funciones del lenguaje publicitario
@@ -440,7 +440,7 @@
 
     .row.mb-5
       figure
-        img(src='@/assets/curso/estructura-lenguaje-publicitario.png', alt='Estructura lenguaje publicitario') 
+        img(src='@/assets/curso/estructura-lenguaje-publicitario.svg', alt='Estructura lenguaje publicitario') 
 
     .row
       .col-lg-7

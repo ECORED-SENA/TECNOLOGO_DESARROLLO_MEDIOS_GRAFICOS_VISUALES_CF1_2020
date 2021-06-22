@@ -17,7 +17,7 @@
     .row.justify-content-center
       .col-lg-10
         figure
-          img(src='@/assets/curso/tema2-infografia.png', alt='Infografia Historia del arte')  
+          img(src='@/assets/curso/tema2-infografia.svg', alt='Infografia Historia del arte')  
 
     .super-separador
       .separador2
