@@ -1,2 +1,1 @@
-module.exports =
-  'Diseño gráfico'
+module.exports = 'Diseño gráfico'

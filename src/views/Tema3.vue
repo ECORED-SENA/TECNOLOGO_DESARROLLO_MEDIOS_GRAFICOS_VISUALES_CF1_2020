@@ -6,174 +6,295 @@
     .titulo-principal
       .titulo-principal__numero
         span 3
-      h1 Exponentes, movimientos y tendencias del diseño
+      h1 Gestión de proyectos
 
     figure.mb-5
-      img(src='@/assets/curso/banner-tema3.jpg', alt='Exponentes, movimientos y tendencias del diseño')   
-    p.mb-3 Existen diversas tendencias y exponentes de cada periodo, es importante aclarar que un mismo artista puede pertenecer a varias tendencias, ya que muchas de ellas se han dado en cortos periodos de tiempo.
-    
-    .p.titulo__template--a.mb-4 Este auge en Grecia se produjo en tres etapas: 
+      img(src='@/assets/curso/banner-tema6.jpg', alt='Gestión de proyectos')   
+    p.mb-4.texto-resaltado 
+      span.etiqueta.text-bold La gestión de proyectos involucra la planificación, la organización, la motivación, el control de las tareas y los recursos,
+      | con el propósito de alcanzar los objetivos esperados. Un proyecto es un emprendimiento temporal para producir un producto u ofrecer un servicio, que se logrará mediante el desarrollo de unas acciones concretas, que tendrá un inicio y fin definido. 
 
-    AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta tarjeta--gris")
-      .row(titulo="Art nouveau")
-        .col-md-6.mb-4.mb-md-0
-          p Finales del siglo XIX, principios del siglo XX.
-          p Este movimiento se caracteriza por tener grandes artistas en su lista, uno de sus mayores expositores es Alphonse Mucha, quien revolucionó con su obra la cual 
-            strong representaba la belleza y erotismo de la mujer, con gran delicadeza y sofisticación. 
-            | Mucha salta a la fama con la invención de un cartel para la obra Gismonda protagonizada por la actriz Sarah Bernhardt, actriz de cine y teatro muy importante en la movida parisina. Sarah fue la musa de varios de sus trabajos.
-          p Este movimiento nace bajo las formas poéticas de la naturaleza, el manejo enriquecido de la línea, las curvas, fuerza y movimiento que pueden aportar, adaptándose a la vida moderna. Al igual que muchos otros movimientos el Art nouveau, imprime su sello en todas las áreas artísticas de la época.
-          p.mb-5 Dentro de los exponentes más importantes están, Aubrey Beardsley, Will Bradley, Antoni Gaudí, Toulouse Lautrec y Gustav Klimt.  
-          strong Características:
-          ul.lista.lista-ul--color.p-1.mt-2
-            li 
-              i.fas.fa-circle
-              p.mb-0 Énfasis en elementos de la naturaleza, un estilo joven y moderno.
-            li 
-              i.fas.fa-circle
-              p.mb-0 Manejo de la línea y las formas naturales.
-            li 
-              i.fas.fa-circle
-              p.mb-0 Es el primer movimiento que trata de no parecerse a otro.
-            li 
-              i.fas.fa-circle
-              p.mb-0 Se utilizaron gran cantidad de materiales, sobre todo en la arquitectura y el diseño industrial.
-            li 
-              i.fas.fa-circle
-              p.mb-0 Énfasis rico en el color.    
-        .col-md-6.px-md-5.p-3
-          figure
-            img(src='@/assets/curso/Art-nouveau.png', alt='Gismonda de Alfons Mucha.')
+    .row
+      .col-lg-7
+        p La gestión determina, qué se necesita hacer para alcanzar la meta del proyecto y los objetivos asociados, quién lo hará, cuánto tiempo se necesitará y cuál será el costo; esto será determinante para el éxito del mismo. La gestión también involucra acciones concretas correspondientes a: administrar el inicio y supervisión de los avances en relación con las tareas programadas; controlar y solucionar las dificultades que se presenten durante la etapa de ejecución; definir la finalización, aprobación y evaluación del proyecto. 
+      .col-lg-5
+        figure
+          img(src='@/assets/curso/gestion-proyectos.png', alt='Grupo de personas gestionando proyectos')  
 
-      div.row(titulo="Constructivismo")
-        .col-md-6.mb-4.mb-md-0
-          p (1914) Rusia.
-          p El constructivismo nace en Rusia en 1914, después de la 
-            strong revolución de octubre, 
-            | e influencia el arte, la escultura, el diseño y la arquitectura; apoyado en las bases del cubismo, surge en la coyuntura política del país. 
-          p En el año 1917, Malevich empleo el término construction art (en español arte para construcción), haciendo referencia al trabajo de Ródchenko, bajo una connotación negativa.
-          p Una de las obras más icónicas de este periodo es realizada por Vladimir Tatlin, pintor y escultor al cual se asocia con el nacimiento del constructivismo, diseñó del Monumento a la tercera internacional o también llamada o torre de Tatlin, es un edificio habitable, más alto que la propia torre Eiffel, el cual no se edificó.
-          p.mb-5 Entre sus principales exponentes además de Vladimir Tatlin, están: Aleksandr Ródchenko, Aleksandra Ekster, János Máttis-Teutsch, Lajos Kassák, El Lissitzky, entre otros.
-          strong Características:
-          ul.lista.lista-ul--color.p-1.mt-2
-            li 
-              i.fas.fa-circle
-              p.mb-0 Se basa en la abstracción geométrica y funcional.
-            li 
-              i.fas.fa-circle
-              p.mb-0 Sus fuentes de inspiración son el cubismo y el dadaísmo.
-            li 
-              i.fas.fa-circle
-              p.mb-0 Se utilizan colores como el rojo, naranja, azul, blanco, negro y amarillo. Rechaza el arte burgués de la época. 
-            li 
-              i.fas.fa-circle
-              p.mb-0 Se asocia a la producción industrial.
-            li 
-              i.fas.fa-circle
-              p.mb-0 Se utiliza tipografías en negritas en los carteles sobre todo en la propaganda política.
-        .col-md-6.px-md-5.p-3
-          figure
-            img(src='@/assets/curso/Constructivismo.png', alt='Afiche constructivista, simboliza la unidad solidaridad con la gente oprimida.')
+    .super-separador
+      .separador2        
 
-      div.row(titulo="Bauhaus")
-        .col-md-6.mb-4.mb-md-0
-          p Casa de la construcción estatal, 1919 Alemania.
-          p La casa de la construcción estatal o la Bauhaus, fue fundada en 1919 por Walter Gropius en Weimar, Alemania; basa sus propuestas y declaraciones en la idea de una necesaria 
-            strong reforma de la enseñanza artística, como base para la transformación de la sociedad burguesa de la época, 
-            | de acuerdo con el pensamiento socialista de su fundador. La primera fase (1919-1923) fue idealista y romántica; la segunda (1923-1925), mucho más racionalista, y en la tercera (1925-1929) alcanzó su mayor reconocimiento, coincidiendo con su traslado de la ciudad de Weimar a Dessau (Diez y Parra, 2015).
-          p Su característica principal de diseño es la sustracción de ornamentos como los utilizados en el Art nouveau, de formas limpias y geométricas, colores primarios que buscan la funcionalidad con la menor cantidad de elementos. Esta escuela es cerrada por el partido nacional socialista bajo el mandato de Hitler.
-          p.mb-5 Sus principales exponentes son: Walter Gropius, Paul Josef Albers, Lyonel Feininger, Alfred Arndt, Hebert Bayer, Ludwig Hilberseimer, Marianne Brandt, Johannes Itten, Marcel Breuer, Wassily Kandinsky.  
-          strong Características:
-          ul.lista.lista-ul--color.p-1.mt-2
-            li 
-              i.fas.fa-circle
-              p.mb-0 Su principal función es la innovación en el pensamiento, dejando atrás los convencionalismos del momento, la forma sigue a la función. 
-            li 
-              i.fas.fa-circle
-              p.mb-0 La Bauhaus hizo aportes importantes al diseño gráfico e industrial que se utilizan hasta el día de hoy, basados en las tendencias modernistas del uso y relación entre el diseño, materiales funcionales y minimalistas. 
-            li 
-              i.fas.fa-circle
-              p.mb-0 El diseño tipográfico se enriquece con el aporte de nuevos estilos, que apuestan por la funcionalidad más que por la estética.  
-            li 
-              i.fas.fa-circle
-              p.mb-0 Los colores predominantes son los primarios, amarillo, azul y rojo en contraste con formas básicas como el triángulo, el círculo y el cuadrado. 
-            li 
-              i.fas.fa-circle
-              p.mb-0 Las formas geométricas y abstractas se utilizan para simplificar los elementos. 
-        .col-md-6.px-md-5.p-3
-          figure
-            img(src='@/assets/curso/Bauhaus.png', alt='Patrón de bauhaus.')
 
-      div.row(titulo="Art déco")
-        .col-md-6.mb-4.mb-md-0
-          p Europa 1920 – 1939
-          p A la par que en Alemania se desarrolla la escuela de la Bauhaus, Francia y otros países adoptan un movimiento diferente, llamado Art déco, movimiento modernista, que se sitúa con una 
-            strong visión influenciada por diversas estéticas 
-            | como la del constructivismo ruso, del cual toma las líneas duras y la solidez de las formas; El cubismo y el Futurismo son movimientos también presentes en su tendencia, uso de líneas aerodinámicas, fraccionamiento y repetición de formas, y geometrización de estas.
-          p Materiales como aluminio, acero inoxidable, piel de animales, maderas y otros, son los mayormente utilizados. En arquitectura uno de los mejores ejemplos de este estilo es la cúpula del edificio Chrysler en la ciudad de Nueva York; construido entre 1928 y 1930, en este se observan el uso de las líneas, la repetición, y formas características del movimiento, los diversos materiales enfocados hacia un concepto industrializado.
-          p.mb-5 Esta corriente busca un nuevo optimismo después de vivir la primera guerra mundial, 
-            strong sus diseños imprimen un toque elegante y suntuoso, encaminado hacia un futuro esperanzador. 
-            | Los colores son vibrantes e irradian mucho brillo, esto como influencia del Fauvismo, las tipografías realizadas en el Art déco, eran revestidas en muchos casos por una capa de oro, lo cual imprimía un toque de suntuosidad.  
-          strong Características:
-          ul.lista.lista-ul--color.p-1.mt-2
-            li 
-              i.fas.fa-circle
-              p.mb-0 Es un movimiento post guerra, basado en el lujo y la suntuosidad, que desea dejar atrás las carencias de la época. 
-            li 
-              i.fas.fa-circle
-              p.mb-0 Las piezas de este movimiento son puramente decorativas, en la mayoría de los casos.
-            li 
-              i.fas.fa-circle
-              p.mb-0 Gira al redor del progreso, el urbanismo, la ciudad y la maquinaria. 
-            li 
-              i.fas.fa-circle
-              p.mb-0 Uso continuo de colores, brillos, líneas y formas aerodinámicas.
-        .col-md-6.px-md-5.p-3
-          figure
-            img(src='@/assets/curso/Art-deco.png', alt='Edificio Chrysler en la ciudad de Nueva York.')            
+    // 3.1
+    #t_3_1.titulo-segundo
+      .h2 3.1 Identificar los requerimientos
 
-      div.row(titulo="El diseño grafico en los años 30")
-        .col-md-6.mb-4.mb-md-0
-          p La década de los años 30 se caracterizó en 
-            strong dejar atrás los excesos del Art déco, 
-            | esto sumado a la gran depresión de 1928, generó un cambio en el diseño y las artes. Con formas restringidas tomadas del Art decó y colores tenues, el cartel se vuelve sombrío. 
-          p Tschichold tipógrafo alemán, hace grandes aportes a la tipografía, el arte y la arquitectura, con la aplicación de conceptos constructivistas. En su libro La nueva tipografía, da a conocer tipografías asimétricas y conceptos del diseño asimétrico, que poco se utilizaba en ese momento.
-          p.mb-5 Los avances tecnológicos y el diseño van a la par, esto se refleja en los trabajos realizados, que buscan dar un falso movimiento a las piezas. Se destacan en esta década: Herbert Mater, Piet Zwart, y Lester Beall.
-          strong Características:
-          ul.lista.lista-ul--color.p-1.mt-2
-            li 
-              i.fas.fa-circle
-              p.mb-0 Diseños sobrios.
-            li 
-              i.fas.fa-circle
-              p.mb-0 Colores tenues, poco cálidos. 
-            li 
-              i.fas.fa-circle
-              p.mb-0 Formas no simétricas. 
-        .col-md-6.px-md-5.p-3
-          figure
-            img(src='@/assets/curso/diseno-grafico-anos-30.png', alt='Cartel Art déco. Ilustrador Cassandre.')   
+    p La gestión de un proyecto relaciona el análisis, desarrollo, documentación y verificación de requerimientos, por ello es necesario tener en cuenta lo siguiente: 
 
-      div.row(titulo="El diseño durante la II guerra mundial (cartel bélico)")
-        .col-md-6.mb-4.mb-md-0
-          p En 1939 comienza la segunda guerra mundial, conflicto que durará hasta el año 1945, dividiendo al mundo entre el bloque occidental y el comunista.  La nación de la guerra y las revoluciones, hacen que el diseño sea un arma política, capaz de transmitir un mensaje claro y efectivo, ya que es utilizado por los Gobiernos para impulsar sus ideologías, infundir miedo y como propaganda política. Los países que más sacaron partido del diseño bélico durante esta época fueron Alemania y Estados Unidos. 
-            strong El cartel se vuelve una pieza fundamental de convocatoria masiva para reclutar gente, fondos y desprestigiar al bando contrario. 
-            | Deber ser expresivo pues la imagen llega a mucha gente analfabeta.
-          p Se utilizan colores de gama grisáceas y en otros colores primarios, sobre todo para exaltar al Gobierno y el servicio a la patria, al cual estaban destinados los hombres.
-          p.mb-5 En Estados Unidos sobresale el trabajo de James Montgomery Flagg, del famoso cartel del tío Sam; J.Howard Miller, creado del cartel ¡Podemos hacerlo!, que se muestra en la imagen; y en Alemania Joseoph Goeblels, con un cartel icónico citando la victoria será nuestra, el cual muestra un soldado frente a la bandera del partido Nazi.
-          strong Características:
-          ul.lista.lista-ul--color.p-1.mt-2
-            li 
-              i.fas.fa-circle
-              p.mb-0 Uso político.
-            li 
-              i.fas.fa-circle
-              p.mb-0 Se utiliza la manipulación mediante el cartel.
-            li 
-              i.fas.fa-circle
-              p.mb-0 Utilización de colores primarios y neutros. 
-        .col-md-6.px-md-5.p-3
-          figure
-            img(src='@/assets/curso/cartel-belico.png', alt='Afiche ¡Podemos hacerlo!, creado por J. Howard Miller, en 1942, durante la segunda guerra mundial; impulsa la moral de las mujeres estadounidenses que contribuyen a los esfuerzos de guerra.')               
+    .row.justify-content-center
+      .col-lg-5.col-clientes
+        .cajon.color-naranja.mb-4
+          .row.justify-content-center
+            .col-lg-8.px-lg-4.p-4
+              h3 Claridad
+              p.mb-0 El proyecto debe ser comprensible en cuanto a su propósito y alcance, sin dar lugar a ambigüedades, posibilitando una única interpretación.
+            .col-lg-3.col-5.py-4
+              figure
+                img(src='@/assets/curso/lupa.svg', alt='Icono de lupa')    
+      .col-lg-5.col-clientes
+        .cajon.color-naranja.mb-4
+          .row.justify-content-center
+            .col-lg-8.px-lg-4.p-4
+              h3 Realismo
+              p.mb-0 Su desarrollo debe ser viable y ser coherente en relación con el presupuesto y recursos requeridos.
+            .col-lg-3.col-5.py-4
+              figure
+                img(src='@/assets/curso/diamante.svg', alt='Icono de diamante') 
+
+      .col-lg-5.col-clientes
+        .cajon.color-naranja
+          .row.justify-content-center
+            .col-lg-8.px-lg-4.p-4
+              h3 Relevancia
+              p.mb-0 Su consecución debe ser necesaria, es decir, aporta de manera significativa en la solución de un problema o suplir una necesidad.
+            .col-lg-3.col-5.py-4
+              figure
+                img(src='@/assets/curso/favorito.svg', alt='Icono de favorito')    
+      .col-lg-5.col-clientes
+        .cajon.color-naranja
+          .row.justify-content-center
+            .col-lg-8.px-lg-4.p-4
+              h3 Verificabilidad
+              p.mb-0 Debe permitir corroborar y demostrar los resultados alcanzados con respecto a los objetivos del proyecto, ya sea que se trate de indicadores de tipo cuantitativo o cualitativo.
+            .col-lg-3.col-5.py-4
+              figure
+                img(src='@/assets/curso/divisa.svg', alt='Icono de divisa')
+
+    .super-separador
+      .separador2
+
+
+    // 3.2
+    #t_3_2.titulo-segundo
+      .h2 3.2. Fases y metodologías de programación de proyectos
+
+    p Las fases de un proyecto son:
+
+    .row.justify-content-center
+      .col-lg-10
+        figure
+          img.mb-5(src='@/assets/curso/fases-del-proyecto.svg', alt='Infografía sobre fases del proyecto')
+
+    p A continuación, se detalla de manera general las fases del proyecto, objetivo y tareas:     
+
+    .tabla-b.color-acento-contenido
+      table
+        thead.tabla-b__header
+          tr
+            th.h3 Fase 
+            th.h3 Objetivos
+            th.h3 Tareas 
+        tbody    
+          tr
+            td Inicio y análisis del proyecto
+            td 
+              ul.lista.lista-ul--color.p-1.mt-2
+                li 
+                  i.fas.fa-circle
+                  p.mb-0 Los objetivos son claros.
+                li 
+                  i.fas.fa-circle
+                  p.mb-0 Se ha realizado el análisis de viabilidad.
+                li 
+                  i.fas.fa-circle
+                  p.mb-0 Se obtuvo la aprobación de propuesta.
+            td 
+              ul.lista.lista-ul--color.p-1.mt-2
+                li 
+                  i.fas.fa-circle
+                  p.mb-0 Analizar costos (presupuesto). 
+                li 
+                  i.fas.fa-circle
+                  p.mb-0 Analizar el contexto y riesgos asociados (político, económico, social, tecnológico).
+                li 
+                  i.fas.fa-circle
+                  p.mb-0 Elaborar la planeación general del proyecto.     
+                li 
+                  i.fas.fa-circle
+                  p.mb-0 Organizar el equipo de trabajo.    
+          tr
+            td Ejecución y seguimiento del proyecto
+            td 
+              ul.lista.lista-ul--color.p-1.mt-2
+                li 
+                  i.fas.fa-circle
+                  p.mb-0 Se ha fijado un plan de trabajo.
+                li 
+                  i.fas.fa-circle
+                  p.mb-0 Se han establecido las bases para la ejecución exitosa del proyecto.
+            td 
+              ul.lista.lista-ul--color.p-1.mt-2
+                li 
+                  i.fas.fa-circle
+                  p.mb-0 Definir las tareas requeridas y el orden en el que se deben llevar a cabo. 
+                li 
+                  i.fas.fa-circle
+                  p.mb-0 Realizar la estructura de división del trabajo, asignando responsabilidades.
+                li 
+                  i.fas.fa-circle
+                  p.mb-0 Elaborar cronograma de trabajo (tiempos y recursos para cada actividad).    
+                li 
+                  i.fas.fa-circle
+                  p.mb-0 Elaborar un plan de costos.
+          tr
+            td Planificación del proyecto
+            td 
+              ul.lista.lista-ul--color.p-1.mt-2
+                li 
+                  i.fas.fa-circle
+                  p.mb-0 Se han procesado y aprobado los resultados del proyecto.
+            td 
+              ul.lista.lista-ul--color.p-1.mt-2
+                li 
+                  i.fas.fa-circle
+                  p.mb-0 Ejecutar las tareas programadas.
+                li 
+                  i.fas.fa-circle
+                  p.mb-0 Realizar control del proyecto, tareas programadas / tareas ejecutadas.
+                li 
+                  i.fas.fa-circle
+                  p.mb-0 Medir avance real del proyecto comparándolo con lo planeado.   
+                li 
+                  i.fas.fa-circle
+                  p.mb-0 Tomar acciones correctivas si fueran necesarias.     
+                li 
+                  i.fas.fa-circle
+                  p.mb-0 Gestionar en curso los riesgos y amenazas.
+          tr
+            td Evaluación del proyecto y cierre
+            td 
+              ul.lista.lista-ul--color.p-1.mt-2
+                li 
+                  i.fas.fa-circle
+                  p.mb-0 Se ha llevado a cabo una retrospectiva crítica del proyecto.
+                li 
+                  i.fas.fa-circle
+                  p.mb-0 El proyecto se ha concluido formalmente.
+            td 
+              ul.lista.lista-ul--color.p-1.mt-2
+                li 
+                  i.fas.fa-circle
+                  p.mb-0 Analizar los resultados obtenidos. 
+                li 
+                  i.fas.fa-circle
+                  p.mb-0 Redactar un informe final del proyecto.
+                li 
+                  i.fas.fa-circle
+                  p.mb-0 Presentación final.    
+                li 
+                  i.fas.fa-circle
+                  p.mb-0 Retroalimentación frente a los resultados alcanzado.
+
+    .super-separador
+      .separador2
+
+
+    // 3.3
+    #t_3_3.titulo-segundo
+      .h2 3.3. Recursos
+
+    p.mb-4 Uno de los aspectos más importantes a la hora de ejecutar un proyecto es el manejo de recursos, por ello los equipos y empresas de hoy en día tienen un área específica de gestión de recursos. Cuando hablamos de la palabra recurso, nos referimos a 
+      strong un conjunto de elementos disponibles para resolver un problema o necesidad. 
+      | existen varios tipos de recursos en una organización: 
+
+    .row.justify-content-center
+      .col-lg-10
+        figure
+          img.mb-5(src='@/assets/curso/empresa.svg', alt='Infografía sobre empresa')
+
+      .row.justify-content-center
+        .col-lg-10
+          .bloque-texto-a.color-primario.p-4.p-md-5.mb-4
+            .row.m-0.align-items-center.justify-content-between
+              .col-lg-3.mb-4.mb-lg-0
+                .h3.mb-0 Económicos
+              .col-lg-9
+                .bloque-texto-a__texto.p-4
+                  p Al terminar la etapa de planificación se necesita buscar recursos para la ejecución del proyecto, no solo económicos sino los recursos físicos o tangibles como una oficina, por ejemplo. 
+                    strong De acuerdo con el cronograma y la proyección de actividades, se debe identificar qué recursos son necesarios, y en qué montos y cantidades. 
+                    | Dependiendo de la capacidad adquisitiva, se podrá recurrir a diferentes fuentes de financiación, ahorros, aportes de socios, préstamo a un banco o entidad crediticia, depósitos, bonos etc.
+          .bloque-texto-a.color-primario.p-4.p-md-5.mb-4 
+            .row.m-0.align-items-center.justify-content-between
+              .col-lg-3.mb-4.mb-lg-0
+                .h3.mb-0 Físicos y tecnológicos.
+              .col-lg-9
+                .bloque-texto-a__texto.p-4
+                  p Ya mencionamos en el cuadro anterior que 
+                    strong el recurso físico es la infraestructura que tiene una empresa, son activos tangibles y que por lo general tienen un tiempo de duración y se deprecian con el paso de los días. 
+                    | Maquinaria, automóviles, edificios, locales, materiales, equipos de cómputo, muebles, escritorios, sillas, teléfonos, inventario e insumos, hacen parte de la extensa lista. Es importante decir que el buen uso de estos recursos es fundamental; por ejemplo, una empresa compra nuevos equipos de producción, pero su equipo de trabajo no tiene el conocimiento para ponerlos en funcionamiento, siendo necesario capacitar al equipo de trabajo para que la compra de esos equipos no se convierta en una pérdida sino un elemento en favor de la producción.
+          .bloque-texto-a.color-primario.p-4.p-md-5.mb-4 
+            .row.m-0.align-items-center.justify-content-between
+              .col-lg-3.mb-4.mb-lg-0
+                .h3.mb-0 Tecnológicos.
+              .col-lg-9
+                .bloque-texto-a__texto.p-4
+                  p El recurso tecnológico se vale de la tecnología para conseguir un propósito. Estos medios suelen ser tangibles como la maquinaria, las computadoras, impresoras, entre otros; sin embargo, encontramos medios intangibles asociados al software, como los programas de diseño, las aplicaciones móviles, las plataformas virtuales y el internet. 
+                    strong La adquisición de estos recursos debe ser un proceso dinámico y evolutivo, de manera constante con los avances y las nuevas tecnologías. 
+                    | De nada sirve conseguir un excelente proyecto en diseño, si ni siquiera contamos con un computador que tenga los programas requeridos. Para ser competitiva, una organización debe gestionar de manera estratégica la adquisición de estos recursos, dadas por las dinámicas externas del entorno y el mercado. 
+          .bloque-texto-a.color-primario.p-4.p-md-5
+            .row.m-0.align-items-center.justify-content-between
+              .col-lg-3.mb-4.mb-lg-0
+                .h3.mb-0 Humanos.
+              .col-lg-9
+                .bloque-texto-a__texto.p-4
+                  p El recurso humano o capital humano, es el más importante en cualquier proyecto, empresa o entidad, sin este no podría existir la organización, por ende, el proyecto. Este recurso es el que 
+                    strong aporta el conocimiento, saberes, oficios, constancia, dedicación y aprendizaje, cada persona de acuerdo con sus conocimientos desempeñan un rol y responsabilidades bien definidas.  
+                    | El correcto funcionamiento del área de recursos humanos, el buen ambiente laboral y las condiciones justas y equitativas, propenden en tener un excelente equipo de trabajo, que al final se deriva en ganancias para todos. Un empleado contento y bien remunerado, se sentirá feliz en su trabajo, contrario a un trabajador que tiene que laborar en un ambiente conflictivo, con bajo salario y extenuantes horarios laborales.
+
+    .super-separador
+      .separador2
+
+
+    // 3.4
+    #t_3_4.titulo-segundo
+      .h2 3.4. Seguimiento
+
+    .row
+      .col-lg-7
+        p El proceso de seguimiento y control del proyecto, 
+          strong son un conjunto de elementos y acciones que se realizan para medir y comprobar la ejecución de las tareas propuestas durante la fase inicial, 
+          | establecidas en el momento de la planificación; generalmente, la supervisión está a cargo de un director de proyectos, quien define si se está llevando el orden consecutivo de los pasos consignados dentro del plan de trabajo. 
+        p El seguimiento es la base para la toma de decisiones importantes, que permiten encauzar los propósitos del proyecto, por lo cual debe llevarse a cabo con cierta periodicidad y rigurosidad, para lo cual es importante (OBS, s.f.):
+        ul.lista.lista-ul--color.p-1.mt-2
+          li 
+            i.fas.fa-circle
+            p.mb-0 Definir qué se debe monitorizar y evaluar.
+          li 
+            i.fas.fa-circle
+            p.mb-0 Establecer los indicadores clave para el seguimiento del proyecto.
+          li 
+            i.fas.fa-circle
+            p.mb-0 Recolectar y organizar la información.   
+          li 
+            i.fas.fa-circle
+            p.mb-0 Analizar e interpretar los datos.
+          li 
+            i.fas.fa-circle
+            p.mb-0 Indicar y comunicar el grado de progreso del proyecto.
+          li 
+            i.fas.fa-circle
+            p.mb-0 Informar de las incidencias, riesgos o imprevistos que puedan surgir.
+          li 
+            i.fas.fa-circle
+            p.mb-0 Proponer un plan de acciones para mitigar los riesgos.
+          li 
+            i.fas.fa-circle
+            p.mb-0 Establecer las fechas de los hitos de cada proyecto y confirmar las mismas periódicamente.          
+      .col-lg-5
+        figure
+          img(src='@/assets/curso/seguimiento.png', alt='Imagen de dos personas reunidas')  
+
+
 
 </template>
 

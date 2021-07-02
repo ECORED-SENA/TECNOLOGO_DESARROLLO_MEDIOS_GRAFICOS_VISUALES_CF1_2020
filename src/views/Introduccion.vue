@@ -31,9 +31,9 @@
             figure
               img(src='@/assets/curso/ico-intro2.svg', alt='Icono intro')
           .col-lg-10.p-4
-            p Por su parte los 
+            p Por su parte, los 
               strong medios gráficos, el diseño 
-              | y demás, aparecen como concepto siglos más tarde, dando solución a problemas de diversa índole, generando elementos y piezas funcionales que responden a diferentes necesidades; es allí donde radica su importancia, sobre todo en el mundo actual, en donde el impacto visual y la funcionalidad de las cosas es fundamental, teniendo como misión 
+              | y demás, aparecen como un concepto siglos más tarde, dando solución a problemas de diversa índole, generando elementos y piezas funcionales que dan respuesta a diferentes necesidades; es allí, donde radica su importancia, sobre todo en el mundo actual, en donde el impacto visual y la funcionalidad de las cosas es fundamental, teniendo como misión 
               strong crear un mensaje claro y objetivo, que genere una responsabilidad ética y moral, sobre aquel que lo ejerza.
     
 
