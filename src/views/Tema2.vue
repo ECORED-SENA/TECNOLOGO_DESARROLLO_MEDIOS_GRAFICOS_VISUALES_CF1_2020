@@ -33,8 +33,83 @@
     #t_2_1.titulo-segundo
       .h2 2.1. Tipos de brief y sus elementos
 
-    figure
-      img(src='@/assets/curso/video1.jpg', alt='Video')
+    .row.justify-content-center.mb-4
+      .col-lg-10
+        .cajon.color-amarillo.mb-4
+          .row.justify-content-center
+            .col-lg-3.col-5.py-4.p-lg-5
+              figure
+                img.px-lg-3(src='@/assets/curso/megafono.svg', alt='Briefing publicitario')
+            .col-lg-9.px-lg-4.p-4
+              h4 Briefing publicitario
+              p Este documento va dirigido a las empresas de publicidad, con las directrices y lineamientos a seguir en el proceso, los elementos principales son:
+              p Este documento va dirigido a las empresas de publicidad, con las directrices y lineamientos a seguir en el proceso, los elementos principales son:
+              ul.lista.lista-ul--color.p-1.mt-2
+                li.mb-1
+                  i.fas.fa-chevron-right
+                  p.mb-0 Canales que se van a utilizar.
+                li.mb-1
+                  i.fas.fa-chevron-right
+                  p.mb-0 Público al cual se dirige la campaña (target).
+                li.mb-1
+                  i.fas.fa-chevron-right
+                  p.mb-0 Directrices del tono y uso del lenguaje comunicativo.
+                li.mb-1 
+                  i.fas.fa-chevron-right
+                  p.mb-0 Propuesta de venta y USP (siglas en inglés de Unique Selling Proposition, lo que traduce, propuesta única de venta o de valor).
+                li.mb-1
+                  i.fas.fa-chevron-right
+                  p.mb-0 Fechas exactas de lanzamientos en los canales propuestos.
+                li.mb-1 
+                  i.fas.fa-chevron-right
+                  p.mb-0 Objetivos de cada campaña.
+                li.mb-1 
+                  i.fas.fa-chevron-right
+                  p.mb-0 Presupuesto final para toda la campaña.         
+      .col-lg-10
+        .cajon.color-naranja.mb-4
+          .row.justify-content-center
+            .col-lg-3.col-5.py-4.p-lg-5
+              figure
+                img.px-lg-4(src='@/assets/curso/creatividad.svg', alt='Briefing creativo')
+            .col-lg-9.px-lg-4.p-4
+              h4 Briefing creativo
+              p Busca dar las herramientas necesarias al equipo creativo, para desarrollar ideas que revolucionan e impacten de manera propositiva la campaña. Corresponde a la información detallada a nivel gráfico y visual, con toda la propuesta de piezas y acciones a desarrollar: marca, logotipo, poster, catálogo, promoción, formatos, materiales, etc.
+      .col-lg-10
+        .cajon.color-amarillo.mb-4
+          .row.justify-content-center
+            .col-lg-3.col-5.py-4.p-lg-5
+              figure
+                img.px-lg-4(src='@/assets/curso/media-monitor-screen-Digital Marketing.svg', alt='Briefing de marketing')
+            .col-lg-9.px-lg-4.p-4
+              h4 Briefing de marketing
+              p Este documento se utiliza en marketing y define parámetros de la campaña, por ejemplo, si será digital o tradicional. El desarrollo del brief se orienta a través de las siguientes preguntas: ¿qué producto vamos a vender, en qué lugar?, ¿cuál es el cliente potencial e ideal?, ¿qué necesidades necesita suplir?, ¿por qué y en qué podemos ayudarle?, ¿pertenece a algún grupo o nicho de mercado?, ¿por qué ese cliente compra a la competencia?, ¿qué buscamos con la venta?, ¿qué objetivos y presupuesto que se tiene contemplado?
+      .col-lg-10
+        .cajon.color-naranja.mb-4
+          .row.justify-content-center
+            .col-lg-3.col-5.py-4.p-lg-5
+              figure
+                img.px-lg-4(src='@/assets/curso/innovation-document-idea-money-arrow up.svg', alt='Briefing de negocio')
+            .col-lg-9.px-lg-4.p-4
+              h4 Briefing de negocio
+              p Presenta una estructura similar al brief de marketing, enfocado de manera estratégica hacia el proyecto, sus principales elementos son:
+              ul.lista.lista-ul--color.p-1.mt-2
+                li.mb-1
+                  i.fas.fa-chevron-right
+                  p.mb-0 Descripción de la empresa, servicios prestados, productos desarrollados y sector en el mercado.
+                li.mb-1
+                  i.fas.fa-chevron-right
+                  p.mb-0 Descripción de sus competidores directos e indirectos, ventaja de valor y ventajas competitivas.
+                li.mb-1
+                  i.fas.fa-chevron-right
+                  p.mb-0 Análisis del mercado, cliente, tendencias.
+                li.mb-1 
+                  i.fas.fa-chevron-right
+                  p.mb-0 Análisis del proceso de compra y adquisición.
+
+              
+
+
 
     .super-separador
       .separador2  
