@@ -29,7 +29,7 @@
     #t_3_1.titulo-segundo
       .h2 3.1 Identificar los requerimientos
 
-    p La gestión de un proyecto relaciona el análisis, desarrollo, documentación y verificación de requerimientos, por ello es necesario tener en cuenta lo siguiente: 
+    p La gestión de un proyecto relaciona el análisis, desarrollo, documentación y verificación de requerimientos, por ello, es necesario tener en cuenta lo siguiente: 
 
     .row.justify-content-center
       .col-lg-5.col-clientes
@@ -266,25 +266,25 @@
           | establecidas en el momento de la planificación; generalmente, la supervisión está a cargo de un director de proyectos, quien define si se está llevando el orden consecutivo de los pasos consignados dentro del plan de trabajo. 
         p El seguimiento es la base para la toma de decisiones importantes, que permiten encauzar los propósitos del proyecto, por lo cual debe llevarse a cabo con cierta periodicidad y rigurosidad, para lo cual es importante (OBS, s.f.):
         ul.lista.lista-ul--color.p-1.mt-2
-          li 
+          li.mb-0
             i.fas.fa-circle
             p.mb-0 Definir qué se debe monitorizar y evaluar.
-          li 
+          li.mb-0 
             i.fas.fa-circle
             p.mb-0 Establecer los indicadores clave para el seguimiento del proyecto.
-          li 
+          li.mb-0 
             i.fas.fa-circle
             p.mb-0 Recolectar y organizar la información.   
-          li 
+          li.mb-0 
             i.fas.fa-circle
             p.mb-0 Analizar e interpretar los datos.
-          li 
+          li.mb-0 
             i.fas.fa-circle
             p.mb-0 Indicar y comunicar el grado de progreso del proyecto.
-          li 
+          li.mb-0 
             i.fas.fa-circle
             p.mb-0 Informar de las incidencias, riesgos o imprevistos que puedan surgir.
-          li 
+          li.mb-0 
             i.fas.fa-circle
             p.mb-0 Proponer un plan de acciones para mitigar los riesgos.
           li 

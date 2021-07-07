@@ -334,7 +334,7 @@ export default {
     {
       termino: 'Axial',
       significado:
-        'termino utilizado para hacer referencia a la simetría alrededor del eje.',
+        'término utilizado para hacer referencia a la simetría alrededor del eje.',
     },
     {
       termino: 'Escorzo',
@@ -344,12 +344,12 @@ export default {
     {
       termino: 'Feedback',
       significado:
-        'término que en ingles que significa retroalimentación, y se entiende como la respuesta u opinión que da un interlocutor, a partir de la información recibida por parte del emisor.',
+        'término en inglés que significa retroalimentación, y se entiende como la respuesta u opinión que da un interlocutor, a partir de la información recibida por parte del emisor.',
     },
     {
       termino: 'Gárgola',
       significado:
-        'son figuras mitológicas, en forma de animales o humanos, utilizadas en iglesias y catedrales como objetos decorativos o también para drenajes de agua, un estilo artístico de la edad media especialmente en el arte gótico.',
+        'son figuras mitológicas, en forma de animales o humanos, utilizadas en iglesias y catedrales como objetos decorativos o también para drenajes de agua, un estilo artístico de la edad media, especialmente en el arte gótico.',
     },
     {
       termino: 'Helenista',
@@ -359,12 +359,12 @@ export default {
     {
       termino: 'Ortogonal',
       significado:
-        'se emplea para hacer referencia a que está en ángulo recto, ángulo de 90º.',
+        'se emplea para hacer referencia que está en ángulo recto, ángulo de 90º.',
     },
     {
       termino: 'Polis',
       significado:
-        'hace referencia a las ciudades-estado en la antigua Grecia, territorios independientes gobernados de manera autónoma.',
+        'hace referencia a las ciudades-estado en la antigua Grecia, territorios independientes, gobernados de manera autónoma.',
     },
     {
       termino: 'Rosetta',
@@ -379,7 +379,7 @@ export default {
     {
       termino: 'Target',
       significado:
-        'es un término inglés, que no forma parte del diccionario de la RAE, se emplea en al campo de la publicidad para designar al público objetivo o nicho de mercado al cual se destinará una campaña, producto o servicio. ',
+        'es un término inglés, que no forma parte del diccionario de la RAE, se emplea en al campo de la publicidad para designar al público objetivo o nicho de mercado al cual se destinará una campaña, producto o servicio.',
     },
   ],
   complementario: [

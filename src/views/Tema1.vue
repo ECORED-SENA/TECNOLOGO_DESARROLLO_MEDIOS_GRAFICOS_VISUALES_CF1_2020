@@ -10,7 +10,7 @@
 
     figure.mb-4
       img(src='@/assets/curso/banner-tema1.jpg', alt='Definición e historia del diseño gráfico')   
-    p.mb-5.texto-resaltado Luego de reconocer el contexto y las condiciones de aprendizaje que debes aplicar día a día. Es momento de hacer preguntas como 
+    p.mb-5.texto-resaltado El diseño gráfico lo podemos definir como  
       span.etiqueta.text-bold  una disciplina que interactúa por lo general con muchas otras disciplinas en diversos ámbitos y que busca la solución a problemas de comunicación visual,
       |  para dar a conocer, exponer y publicitar diversos productos, bienes y servicios, por medio de diversas piezas gráficas que pretenden transmitir un mensaje específico.
 
@@ -104,14 +104,14 @@
           tr
             td
               .tarjeta-avatar.tarjeta-tabla
-                img(src='@/assets/curso/tema1-arte.png' alt='Icono sobre Arte')
-                .tarjeta.color-primario
+                img(src='@/assets/curso/tema1-arte.svg' alt='Icono sobre Arte')
+                .tarjeta.color-primario2
                   .text-white.p-4
                     .h2.text-center Arte  
             td
               .tarjeta-avatar.tarjeta-tabla
-                img(src='@/assets/curso/tema1-diseno.png' alt='Icono sobre Diseño')
-                .tarjeta.color-primario
+                img(src='@/assets/curso/tema1-diseno.svg' alt='Icono sobre Diseño')
+                .tarjeta.color-primario2
                   .text-white.p-4
                     .h2.text-center Diseño              
         tbody 
@@ -130,24 +130,24 @@
                       i.fas.fa-circle
                       p.mb-0 Sus aportes son duraderos y perduran en el tiempo.    
           tr
-            td.td-blanco(rowspan="2") El arte es espontáneo y se genera a partir de expresar un sentimiento, idea o pensamiento; es la solución a una inquietud o pregunta interior del artista.
-            td.td-blanco El diseño busca la solución a un problema o necesidad, tiene un objetivo específico.
+            td.td-blanco(rowspan="2").border-right El arte es espontáneo y se genera a partir de expresar un sentimiento, idea o pensamiento; es la solución a una inquietud o pregunta interior del artista.
+            td.td-blanco.border-bottom El diseño busca la solución a un problema o necesidad, tiene un objetivo específico.
           tr
             td El diseñador basa su trabajo en elementos consignados generalmente en un brief, el cual es un documento informativo en donde se encuentran instrucciones específicas para llevar a cabo su labor.         
           tr
-            td El artista genera su propia historia.
+            td.border-right El artista genera su propia historia.
             td El diseñador parte de la necesidad de un cliente que tiene un producto, marca o empresa ya existente; y hace su aporte para crear, mejorar o exaltar, los atributos de esta.            
           tr
-            td Requiere de la aprobación del autor.
+            td.border-right Requiere de la aprobación del autor.
             td Requiere de la aceptación por parte de un grupo, cliente, empresa o entidad.
           tr
-            td Cada persona interpreta el arte desde su propia óptica.
+            td.border-right Cada persona interpreta el arte desde su propia óptica.
             td Hay un público objetivo a quién va dirigido el mensaje, por eso se estudia muy bien al receptor.
           tr
-            td El mensaje es libre de interpretaciones.
+            td.border-right El mensaje es libre de interpretaciones.
             td Busca generar en la población un mensaje particular, implantar una idea o concepto, lo cual genera en el diseñador una responsabilidad tanto ética como moral.
           tr
-            td El uso de materiales es muy libre, se pueden utilizar a selección del autor.
+            td.border-right El uso de materiales es muy libre, se pueden utilizar a selección del autor.
             td El diseñador está sujeto a la funcionalidad, utilidad y practicidad de los materiales que utiliza.  
 
 
@@ -161,14 +161,17 @@
     #t_1_2.titulo-segundo
       .h2 1.2. Historia del arte
  
-    p.mb-5.texto-resaltado La historia del arte es 
+    p.mb-4.texto-resaltado La historia del arte es 
       span.etiqueta.text-bold   la disciplina de las ciencias sociales encargada de estudiar la evolución del arte a través de cada etapa del tiempo,
       |  basando sus estudios en la clasificación y observación de culturas, pueblos y civilizaciones. Su campo de exploración permite identificar cómo el hombre ha evolucionado a través de los tiempos y cuál era su visión respecto al mundo que lo rodeaba en cada etapa desde su existencia. Su estudio requiere ayuda de otras múltiples disciplinas como la arqueología, antropología, geografía, historia y otras más.  Por medio de la historia identificamos aspectos importantes en las sociedades como, cultura, creencias, política, costumbres, agricultura, vestimenta y muchas más.
+
+    p.mb-5
+      strong Principales etapas de la historia del arte
 
     .row.justify-content-center
       .col-lg-10
         figure
-          img(src='@/assets/curso/inforgrafia-historia.svg', alt='Infografia Historia del arte')  
+          img(src='@/assets/curso/etapas-historia-arte.svg', alt='Infografia Historia del arte')  
 
     .super-separador
       .separador2
@@ -212,7 +215,7 @@
         .row
           .col-md-6.mb-4.mb-md-0.px-md-5.px-3
             .h4 Paleolítico superior
-            p Esta tercera etapa abarcó desde 30.000 a. C. hasta el 10.000 a. C., y supone la etapa final de paleolítico. Se destaca en esta etapa el dominio del fuego, el perfeccionamiento de herramientas de caza, y se encontró la mayor cantidad de evidencias de desarrollo artístico (pinturas rupestres encontradas en las cuevas de Altamira ubicadas en la región española de Cantabria y pequeñas esculturas de arcilla o de hueso, que escenifican rituales de caza a través de la representación de dibujos humanos y animales). La evolución del humano alcanzó la fase de hombre de Cromañón, con una mayor capacidad para comunicarse (Uriarte, 20).
+            p Esta tercera etapa abarcó desde 30.000 a. C. hasta el 10.000 a. C., y supone la etapa final del paleolítico. Se destaca en esta etapa el dominio del fuego, el perfeccionamiento de herramientas de caza, y se encontró la mayor cantidad de evidencias de desarrollo artístico (pinturas rupestres encontradas en las cuevas de Altamira ubicadas en la región española de Cantabria y pequeñas esculturas de arcilla o de hueso, que escenifican rituales de caza a través de la representación de dibujos humanos y animales). La evolución del humano alcanzó la fase de hombre de Cromañón, con una mayor capacidad para comunicarse (Uriarte, 2020).
           .col-md-6
             figure
               img(src='@/assets/curso/img-paleolitico-superior.svg', alt='Paleolítico superior cavernicolas pintando, haciendo fuego y con armas de caza')
@@ -281,8 +284,9 @@
           .col-md-5.mb-3.mb-md-0
             figure
               img(src='@/assets/curso/egipto-arquitectura.svg', alt='Arquitectura egipcia')
-          .col-md-7.px-md-5
-            .h4 Arquitectura
+          .col-md-1
+          .col-md-6
+            .h2.mb-4 Arquitectura
             p Los egipcios utilizaron principalmente la piedra en sus construcciones, por su fácil acceso y durabilidad. Sus edificaciones eran monumentales, con bases fuertes y muros gruesos.
             p Debido a la escasez de materiales, predominan en construcción el adobe (ladrillos de barro) y la piedra, fundamentalmente piedra caliza, también piedra arenisca y granito en cantidades enormes. Del imperio antiguo en adelante, la piedra fue reservada generalmente para tumbas y templos, mientras que los ladrillos fueron utilizados en viviendas, incluso en los palacios reales, fortalezas, muros de los recintos de los templos y de las ciudades, y para edificios subsidiarios en los complejos de los templos.
             p El clima de Egipto, afortunadamente seco y cálido preservó, como la aldea de Deir el-Medina, la ciudad de Kahun del imperio medio, o las fortalezas en Buhen y Mirgissa. Por otra parte, muchos templos y tumbas han perdurado porque fueron construidos de piedra, o asentadas en tierras altas, no afectadas por las inundaciones del río Nilo. Muchas antiguas ciudades egipcias han desaparecido porque estaban situadas cerca de las zonas cultivables del valle del Nilo, que eran inundadas periódicamente con el lodo del río y se elevaron lentamente durante milenios; o porque los ladrillos de adobe, con que se construyeron, fueron utilizados como fertilizante por los campesinos. Otros edificios son inaccesibles, ya que las nuevas construcciones fueron erigidas sobre las antiguas (Castro, 2014).
@@ -291,8 +295,9 @@
           .col-md-5.mb-3.mb-md-0
             figure
               img(src='@/assets/curso/egipto-escritura.svg', alt='Escritura egipcia')  
-          .col-md-7.px-md-5
-            .h4 Escritura
+          .col-md-1
+          .col-md-6
+            .h2.mb-4 Escritura
             p Los egipcios fueron grandes poseedores de conocimientos, durante siglos su escritura fue casi que indescifrable hasta que apareció la piedra Rosetta, la cual ayudó a descifrar algunos símbolos. Los egipcios no solo utilizaban los pictogramas, también tenían dentro de su escritura fonemas con un valor sonoro. Dichos jeroglíficos podían ser leídos en varias direcciones, de izquierda a derecha, de derecha a izquierda, de abajo a arriba y viceversa.
             p La piedra Rosetta es descubierta en 1779 cerca al brazo del Nilo, en Rosetta de donde toma su nombre, un oficial francés hace el descubrimiento y observan tres tipos de escritura diferente. La piedra es llevada a Londres en donde se empiezan a realizar estudios por varios eruditos, que terminan descifrando finalmente su contenido.
 
@@ -351,16 +356,18 @@
           .col-md-5.mb-3.mb-md-0
             figure
               img(src='@/assets/curso/griega-arquitectura.svg', alt='La arquitectura griega')
-          .col-md-7.px-md-5
-            .h4 La arquitectura griega
+          .col-md-1
+          .col-md-6
+            .h2.mb-4 La arquitectura griega
             p Constituyó el punto de partida de lo que se iba a desarrollar posteriormente en el transcurso de más de dos mil años. Al principio utilizaron adobe o madera, que fue reemplazada por la piedra, sobre todo mármol. Trabajaron el espacio axial y ortogonal, las cubiertas horizontales, los espacios fueron diseñados para el hombre en forma inteligente, articulados al igual que un ser viviente, manteniendo perfecta simetría y proporción. Construyeron santuarios, que eran ciudades sagradas, en los cuales sacerdotes y pitonisas, buscaban la respuesta de los dioses a través del oráculo, se realizan juegos y pruebas deportivas, actividades musicales y teatrales. Las construcciones estaban rodeadas de columnas, idearon tres estilos de órdenes: dórico, jónico y corintio. En la cornisa, que es un componente horizontal, levantaron monstruosas gárgolas; otro elemento fundamental e importante a destacar son las obras de carácter lúdico como lo es el teatro, construidos en laderas de montañas, a gran escala y de forma semicircular. En cuanto a la vivienda urbana, se observa que tenían una planta rectangular con un patio en el centro, hacia el cual daban las estancias. Se puede afirmar, que se mantuvo el orden ortogonal arquitectónica y urbanísticamente, dando nacimiento al urbanismo, como pauta que determina cómo distribuir el espacio vital.
       .py-3.py-md-4(titulo="Escultura y pintura")
         .row
           .col-md-5.mb-3.mb-md-0
             figure
               img(src='@/assets/curso/griega-escritura.svg', alt='Escultura y pintura')  
-          .col-md-7.px-md-5
-            .h4 Escultura y pintura
+          .col-md-1
+          .col-md-6
+            .h2.mb-4 Escultura y pintura
             p Los romanos eran monoteístas y al conquistar Grecia, destruyeron muchas pinturas, pues los dominados eran politeístas. 
               strong La escultura se centró en la perfección del cuerpo humano, 
               | usualmente atletas desnudos que habían triunfado en los diversos juegos deportivos de la época. También elaboraron estatuas de dioses. Utilizaron la piedra caliza y el mármol; trabajaron el bronce, la madera, el oro, el marfil, piedras de colores y coronas de metal, entre otros.
@@ -474,7 +481,7 @@
           strong el hombre había encontrado a Dios, 
           | pues él también habitaba en la tierra, y ya no era necesario buscarlo como se afirmaba en la época románica; 
           strong este pensamiento fue la base del estilo artístico gótico. 
-          | Como la presencia divina se manifestaba a través de la luz, en la arquitectura gótica se utilizó el vidrio con tonos preferencialmente azules y rojos, y la piedra en forma de sillares, por cuanto lo estructural tuvo para la época enorme valor estético
+          | Como la presencia divina se manifestaba a través de la luz, en la arquitectura gótica se utilizó el vidrio con tonos preferencialmente azules y rojos, y la piedra en forma de sillares, por cuanto lo estructural tuvo para la época enorme valor estético.
       .col-lg-5
         figure.mb-4
           img(src='@/assets/curso/arte-gotico.png', alt='El arte gótico')      
@@ -550,8 +557,9 @@
     h4 El Barroco
 
     .row.mb-3
-      .col-lg-7
+      .col-lg-6
         p Este período abarcó el siglo XVII y principios del XVIII, y surgió en un período lleno de tensiones religiosas entre católicos y protestantes, y tuvo variaciones en cada país, conforme a si se trataba de un país regido por una monarquía absolutista o parlamentaria. Se extendió en Europa occidental y sus colonias americanas recientemente conquistadas. Nació en Italia en el período conocido como Seicento, que inicialmente se refería a un estilo artístico recargado y excesivo. El barroco expresaba una sensibilidad desengañada, crítica, compleja y pesimista. El término fue utilizado inicialmente para referirse a algo engañoso o recargado en forma despectiva, pero desde el siglo XIX, el término se utilizó para referirse no sólo al período sino a las manifestaciones artísticas que contradijeron los valores del clasicismo, mediante una negación simbólica y artística de lo clásico, por eso fue femenino, irracional y dionisíaco. 
+      .col-lg-1
       .col-lg-5
         figure.mb-4
           img(src='@/assets/curso/barroco.png', alt='El Barroco')      
@@ -575,21 +583,23 @@
       .tarjeta.color-primario.color-custom.p-4(titulo="Naturalisa")
         .row
           .col-xl-1
-          .col-xl-4
+          .col-xl-3
             .p.titulo__template--a.mb-4 Su  estilo se basa en la observación de la naturaleza
           .col-xl-1
           .col-xl-6.mb-4
             figure
               img(src='@/assets/curso/Naturalisa.png', alt='Naturalisa')
+          .col-xl-1    
       .tarjeta.color-primario.color-custom.p-4(titulo="Clasicismo")
         .row
           .col-xl-1
-          .col-xl-4
+          .col-xl-3
             .p.titulo__template--a.mb-4 Opuesta al naturalismo con un estilo más realista y racional, predominando el dibujo sobre el color
           .col-xl-1
           .col-xl-6.mb-4
             figure
               img(src='@/assets/curso/Clasicismo.png', alt='Clasicismo')
+          .col-xl-1
 
     .row.mb-5
       .col-lg-7
@@ -645,7 +655,7 @@
       .col-lg-9.p-lg-4.px-4
         p El cubismo también se desarrolló en la escultura, con técnicas parecidas al 
           strong collage 
-          | del cubismo sintético, que integró señales y fragmentos de cosas reales. Se elaboró con materiales de desecho, compuestas de diversas piezas, con huecos y vacíos en la superficie. En la arquitectura el cubismo no tuvo casi representación, se realizó sobre todo en Checoeslovaquia, como en la casa de la Virgen negra de Praga
+          | del cubismo sintético, que integró señales y fragmentos de cosas reales. Se elaboró con materiales de desecho, compuestas de diversas piezas, con huecos y vacíos en la superficie. En la arquitectura el cubismo no tuvo casi representación, se realizó sobre todo en Checoslovaquia, como en la casa de la Virgen negra de Praga.
 
     // Impresionismo
     h4.mb-4 Impresionismo
@@ -680,9 +690,7 @@
         figure
           img(src='@/assets/curso/Neoclasicismo.png', alt='Neoclasicismo')  
     
-    p.mb-4 Fue un movimiento artístico con raíces filosóficas y estéticas de la antigüedad clásica, movimiento moralizante, social e intelectual, para adaptarse a la modernidad y reinterpretar sus formas, que surgió a mediados del siglo XVIII y se extendió hasta el XIX. Su furor se produjo debido al descubrimiento de Pompeya y Herculano, por lo que se realizaron numerosas expediciones para conocer las obras antiguas en sus lugares de origen. Además, 
-      strong apareció la Ilustración o el Iluminismo, que defendía la razón y el conocimiento para fomentar el progreso; 
-      | igualmente, tuvo lugar la revolución industrial que modificó los modos de producción y organización social, y la revolución francesa con sus proclamas de igualdad, libertad y fraternidad. Este movimiento se originó en Francia.
+    p.mb-4 Sus características fueron: propendían por la educación y la moralización para construir una sociedad más culta, más racional y educada. El culto a la razón, los temas que destacaban las virtudes, el autodominio y la moderación, la libertad, el heroísmo y el espíritu de sacrificio, se inspiraron en la antigüedad clásica como un referente moral, a través del equilibrio, la proporción y la simetría, pero adaptada a la modernidad.
 
     .row.justify-content-center.mb-5.cajon.color-acento-botones
       .col-lg-2.justify-content-center.col-5.p-4
@@ -1114,7 +1122,7 @@
     // Radiación
     h4 Radiación 
 
-    p.mb-4 Puede ser descrita como como 
+    p.mb-4 Puede ser descrita como  
       strong un caso especial de repetición. 
       | Los módulos repetidos o las subdivisiones estructurales que giran regularmente alrededor de un centro común produciendo un efecto de radiación. La radiación es un fenómeno común en la naturaleza; por ejemplo, lanzar una piedra a un lago genera ondas concéntricas, provocando una gradación, serie ordenada gradualmente (Godoy, 2009).
     .row.justify-content-center.mb-5
@@ -1127,7 +1135,7 @@
 
     p El contraste ocurre siempre, aunque su presencia pueda no ser advertida. Se presenta el contraste cuando una forma está rodeada de un espacio blanco; cuando una línea recta se cruza con una curva; cuando una forma es mucho mayor que otra; cuando coexisten direcciones verticales y horizontales. El contraste 
       strong es solo una clase de comparación, por la cual las diferencias se hacen claras.
-    p.mb-4 Dos formas pueden ser similares en algunos aspectos y diferentes en los otros. Sus diferencias quedan enfatizadas cuando hay un contraste. Una forma puede no parecer grande si es vista por si sola, pero puede parecer gigantesca junto a formas diminutas.  
+    p.mb-4 Dos formas pueden ser similares en algunos aspectos y diferentes en los otros. Sus diferencias quedan enfatizadas cuando hay un contraste. Una forma puede no parecer grande si es vista por sí sola, pero puede parecer gigantesca junto a formas diminutas.
 
     .row.justify-content-center.mb-4
       .col-lg-10.tarjeta.color-naranja.p-5.pb-0

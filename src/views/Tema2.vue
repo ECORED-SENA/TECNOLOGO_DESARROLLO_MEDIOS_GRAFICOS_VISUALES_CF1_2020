@@ -43,7 +43,6 @@
             .col-lg-9.px-lg-4.p-4
               h4 Briefing publicitario
               p Este documento va dirigido a las empresas de publicidad, con las directrices y lineamientos a seguir en el proceso, los elementos principales son:
-              p Este documento va dirigido a las empresas de publicidad, con las directrices y lineamientos a seguir en el proceso, los elementos principales son:
               ul.lista.lista-ul--color.p-1.mt-2
                 li.mb-1
                   i.fas.fa-chevron-right
@@ -214,14 +213,6 @@
           strong “un cliente es la persona o empresa receptora de un bien, servicio, producto o idea, a cambio de dinero u otro artículo de valor”. 
           | Conocer el cliente es fundamental para el buen desarrollo del trabajo, es importante dar una buena primera impresión, mediante la empatía, el ingenio y las buenas ideas para su proyecto. Cuando hay un buen ambiente entre cliente y el diseñador, publicista o agencia de mercadeo, es muy factible asegurar en gran parte el éxito de la campaña.
         p Nunca hay que comenzar un trabajo sin saber lo que el cliente desea del mismo; cuál es la visión de su producto, como ve su propia empresa, si es objetivo respecto a la misma o un poco soñador, esto dará una visión particular del camino que debe recorrer.   
-      .col-lg-5
-        figure
-          img(src='@/assets/curso/conociendo-al-cliente.png', alt='Personas en reunión')  
-
-    h3.mb-4 Revisar la información
-
-    .row.justify-content-center.mb-5.p-2.mx-1
-      .col-lg-9
         .row.cajon.color-acento-botones
           .col-lg-3.justify-content-center.col-5.p-4
             figure
@@ -229,7 +220,12 @@
           .col-lg-9.p-lg-3.px-3
             p Revisar la información de manera clara y concisa, ejecutando una buena planificación del proyecto, contribuyen al éxito. Es de vital importancia estudiar los datos esenciales del brief, como los objetivos y el direccionamiento de este, teniendo siempre un concepto objetivo, sin desviar el proyecto a capricho personal; 
               strong se debe recordar que, aunque sea la mente creativa, no se trabaja para sí mismo sino para otra persona. 
+      .col-lg-5
+        figure
+          img(src='@/assets/curso/conociendo-al-cliente.png', alt='Personas en reunión')  
 
+
+        
 
     h3.mb-4 Retroalimentación de propuestas
 
@@ -237,7 +233,7 @@
       .col-lg-7
         p Como retroalimentación se designa el método de control de sistemas, en el cual los resultados obtenidos de una tarea o actividad son reintroducidos nuevamente en el sistema, con el fin de controlar y optimizar su comportamiento. Como tal, la retroalimentación se aplica prácticamente a cualquier proceso que involucre mecánicas semejantes de ajuste y autorregulación de un sistema (Coelho, 2019). 
         p La retroalimentación entre el emisor y el receptor se considera el aspecto más importante a tener en cuenta en la comunicación; 
-          strong el receptor a partir del mensaje recibido por el emisor, puede establecer una comunicación efectiva 
+          strong el receptor a partir del mensaje recibido por el emisor, puede establecer una comunicación efectiva, 
           | es decir, un intercambio de información en doble vía, que permitirá intensificar las conductas positivas del mensaje, disponer de herramientas creativas a fin de entender y percibir de la mejor manera la información para configurar, cambiar o mejorar el mensaje de su interlocutor. La retroalimentación obedece a ciertos pasos importantes: 
       .col-lg-5
         figure
@@ -289,7 +285,7 @@
         p Si observa a las personas en la calle, podemos llegar a imaginar qué hacen, a qué se dedican, si trabajan, estudian o están desempleados, esto se debe a que, en nuestra imaginación, realizamos asociaciones por medio de la imagen; por ejemplo, podemos asociar el uniforme azul antifluido con un médico, a pesar de que este puede ser utilizado por una manicurista, un aseador, un peluquero o una enfermera. 
         p Tanto el lenguaje corporal, como la ropa, los movimientos y demás, pueden delatar más de lo que deseamos revelar. 
           strong La psicología no solo funciona con la imagen, funciona con el color, el comportamiento, los gustos y demás aspectos de la vida cotidiana. 
-          | Se podría decir que cada cosa que utilizamos cuenta algo de nosotros.
+          | Se podría decir, que cada cosa que utilizamos cuenta algo de nosotros.
         .row.justify-content-center.cajon.color-acento-botones.mb-5.p-2.mx-1
           .col-lg-3.justify-content-center.col-5.p-4
             figure
