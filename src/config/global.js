@@ -114,6 +114,12 @@ export default {
       },
     ],
     subMenu: [
+      /*{
+        nombreRuta: 'actividad',
+        icono: 'far fa-question-circle',
+        titulo: 'Actividad didáctica',
+        desarrolloContenidos: true,
+      },*/
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -138,90 +144,6 @@ export default {
         icono: 'far fa-registered',
         titulo: 'Créditos',
         nombreRuta: 'creditos',
-      },
-    ],
-  },
-  creditos: {
-    liderEquipo: {
-      nombre: 'Maria Camila Garcia Santamaria',
-      cargo: 'Líder del equipo',
-    },
-    contenidoInstruccional: [
-      {
-        nombre: 'Rafael Neftalí Lizcano Reyes',
-        cargo: 'Asesor pedagógico',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
-      },
-      {
-        nombre: 'Guillermo Eduardo González Tarazona',
-        cargo: 'Instructor',
-        centro: 'Centro para la Industria de la Comunicación Gráfica',
-        regional: 'Regional Distrito Capital',
-      },
-      {
-        nombre: 'Javier Enrique Santana',
-        cargo: 'Experto temático',
-        centro: 'Centro de Gestión Industrial',
-        regional: 'Regional Distrito Capital',
-      },
-      {
-        nombre: 'Dayra Maritza Paz Calderón',
-        cargo: 'Diseñadora y Evaluadora Instruccional',
-        centro: 'Centro de Diseño y Metrología',
-        regional: 'Regional Distrito Capital',
-      },
-      {
-        nombre: 'Jhana Johanna Bustillo Ardila',
-        cargo: 'Revisión de estilo',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
-      },
-    ],
-    desarrolloProducto: [
-      {
-        nombre: 'Francisco José Lizcano Reyes',
-        cargo: 'Responsable del equipo',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
-      },
-      {
-        nombre: 'Leyson Fabian Castaño Perez',
-        cargo: 'Integración de recursos y pruebas',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
-      },
-      {
-        nombre: 'Juan Carlos Tapias Rueda',
-        cargo: 'Diseño web',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
-      },
-      {
-        nombre: ' ',
-        cargo: 'Producción audiovisual',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
-      },
-      {
-        nombre: 'Andrea Paola Botello De la Rosa',
-        cargo: 'Desarrollo Front-End',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
-      },
-      {
-        nombre: ' ',
-        cargo: 'Revisión de contenido',
-        centro: 'Centro Industrial del Diseño y la Manufactura',
-        regional: 'Regional Santander',
-      },
-    ],
-    gestoresRepositorio: [
-      {
-        nombre: 'Brayan Stiven Pinto Diaz',
-        cargo: ['Desarrollo front-end', 'Validación de recursos'],
-        centro: 'Centro de comercio y servicios',
-        regional: 'Regional Tolima',
       },
     ],
   },
@@ -390,4 +312,108 @@ export default {
         'https://centroculturalhaedo.edu.ar/cch/actualizacion_permanente/Fundamentos%20del%20Diseno%20Bidimensional%20y%20tridimensional,%20Wucius%20Wong.pdf',
     },
   ],
+  creditos: {
+    liderEquipo: [
+      {
+        nombre: 'Maria Camila Garcia Santamaria',
+        cargo: 'Líder del equipo',
+        centro: 'Dirección General',
+      },
+    ],
+    contenidoInstruccional: [
+      {
+        nombre: 'Rafael Neftalí Lizcano Reyes',
+        cargo: 'Asesor metodológico y pedagógico',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Guillermo Eduardo González Tarazona',
+        cargo: 'Instructor',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica – Regional Distrito Capital',
+      },
+      {
+        nombre: 'Javier Enrique Santana',
+        cargo: 'Experto temático',
+        centro: 'Centro de Gestión Industrial – Regional Distrito Capital',
+      },
+      {
+        nombre: 'Dayra Maritza Paz Calderón',
+        cargo: 'Diseñadora y Evaluadora Instruccional',
+        centro: 'Centro de Diseño y Metrología – Regional Distrito Capital',
+      },
+      {
+        nombre: 'Jhana Johanna Bustillo Ardila',
+        cargo: 'Revisión de estilo',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura – Regional Santander',
+      },
+    ],
+    desarrolloProducto: [
+      {
+        nombre: 'Francisco José Lizcano Reyes',
+        cargo: 'Responsable del equipo',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Leyson Fabian Castaño Perez',
+        cargo: 'Soporte organizacional',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+      {
+        nombre: 'Juan Carlos Tapias Rueda',
+        cargo: 'Diseño web',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      {
+        nombre: 'Andrea Paola Botello De la Rosa',
+        cargo: 'Desarrollo front-end',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+      /*{
+        nombre: 'Nombre',
+        cargo: 'Producción audiovisual',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },*/
+      {
+        nombre: 'Veimar Celis Mélendez',
+        cargo: 'Validación de diseño y contenido',
+        centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
+      },
+    ],
+    gestoresRepositorio: [
+      {
+        nombre: 'Milady Tatiana Villamil Castellanos',
+        cargo: 'Validación y vinculación en plataforma LMS',
+        centro: 'Centro de Comercio y Servicios Regional Tolima',
+      },
+    ],
+  },
+  // creditosInicio: [
+  //   {
+  //     titulo: 'En alianza',
+  //     contenido: [
+  //       require('@/assets/template/logo-sena-naranja.svg'),
+  //       require('@/assets/template/mintic.jpg'),
+  //       require('@/assets/template/minsalud.jpg'),
+  //     ],
+  //   },
+  //   {
+  //     titulo: 'En compañía',
+  //     contenido: [
+  //       require('@/assets/template/presidencia.jpg'),
+  //       require('@/assets/template/ecopetrol.jpg'),
+  //     ],
+  //   },
+  //   {
+  //     titulo: 'Una iniciativa',
+  //     contenido: [require('@/assets/template/santander.jpg')],
+  //   },
+  // ],
 }
