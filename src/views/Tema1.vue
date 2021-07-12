@@ -1275,7 +1275,7 @@
     // Diseño tridimensional
     h4 Diseño tridimensional 
 
-    .row
+    .row.mb-5
       .col-lg-7
         p Si hablamos de un elemento tridimensional decimos que 
           strong posee un volumen dado por altura, anchura y profundidad. 
@@ -1287,7 +1287,14 @@
 
 
     // 1.4.3
-    .h3 Lenguaje publicitario: características
+    .h3.mb-4 Lenguaje publicitario: características
+
+    .row.justify-content-center.mb-4
+      .col-lg-10
+        figure.mb-5
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/7fQpAnZpEbk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
 
     .row
       .col-lg-7
